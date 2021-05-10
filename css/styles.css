@@ -1,6 +1,45 @@
 body {
   text-align: center;
-  background-color: grey;
+}
+/* Title Section */
+#title0 {
+  background-color:#ff4c68 ;
+}
+#title{
+  background-color:#ff4c68 ;
+}
+#title h1{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+#title .iphone-dog{
+  width: 50%;
+}
+#title .container-fluid{
+  padding: 50px 15%;
+}
+#title0 .container-fluid{
+  padding: 3% 15% 0 15%;
+  padding-top: 0;
+}
+#title0 h1{
+  color: #fff;
+  font-size: 1.5rem;
+}
+#title0 a{
+  color: white;
+  opacity: 0.5;
+}
+#title button{
+  padding: 10px;
+}
+#title0 .navbar{
+  padding-top: 50px;
+}
+#title .col{
+  margin-bottom: 50px;
 }
 /* Feature-Box Styles */
 .icon {
