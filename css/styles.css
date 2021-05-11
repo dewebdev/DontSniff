@@ -120,7 +120,7 @@ body {
   padding: 0 15%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
   #title .iphone-dog {
     width: 70%;
     transform: rotate(0deg);
