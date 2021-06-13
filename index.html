@@ -17,11 +17,19 @@
   <link rel="stylesheet" href="css/styles.css" />
   <meta name="theme-color" content="#FFB6C1">
   <link rel="manifest" href="manifest.json">
-  <script>
-      if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('sw.js');
-      };
-  </script>
+ <script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('service-worker.js')
+    .then(registration => {
+      console.log('SW registered with scope:', registration.scope);
+    })
+    .catch(err => {
+      console.error('Registration failed:', err);
+    });
+  });
+}
+ </script>
 
   <title>DogsHeaven</title>
 </head>
@@ -31,7 +39,7 @@
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <h1 class="navbar-brand" href="#">DontSniff</h1>
+        <h1 class="navbar-brand" href="#">🐶DogsMatrimony</h1>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -105,7 +113,7 @@
         <div class="carousel-item active">
           <h2>
             I No Longer Have To sniff Other Dogs for Love.I have Found The
-            Hottest Corgi On Tindog.woof.
+            Hottest Corgi On 🐶DogsMatrimony.
           </h2>
           <img class="testimonial-image" src="images\dog-img.jpg" alt="Dog Profile" />
           <em>Rocky,India</em>
@@ -116,7 +124,7 @@
             the love of their life. I think.
           </h2>
           <img class="testimonial-image" src="images\circle-cropped.png" alt="men-profile" />
-          <em>Beverly, Illinois</em>
+          <em>Dhanush,India</em>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
@@ -215,7 +223,7 @@
       <i class="fab fa-instagram"></i>
       <i class="fab fa-facebook"></i>
       <i class="fas fa-envelope"></i>
-      <p>© Copyright 2021 DontSniff</p>
+      <p>© Copyright 2021 🐶DogsMatrimony</p>
     </footer>
 
 

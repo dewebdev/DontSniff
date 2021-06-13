@@ -3,7 +3,7 @@
     "background_color": "#FF1493",
     "display": "fullscreen",
     "scope": "/",
-    "start_url": "https://god3ly.github.io/DontSniff/",
+    "start_url": "/",
     "name": "DogsMatrimony",
     "short_name": "MyLove",
     "description": "This Is A Dog Match Making Website",
