@@ -3,7 +3,7 @@
     "background_color": "#FF1493",
     "display": "fullscreen",
     "scope": "/",
-    "start_url": "/",
+    "start_url": "/index.html",
     "name": "DogsMatrimony",
     "short_name": "MyLove",
     "description": "This Is A Dog Match Making Website",
